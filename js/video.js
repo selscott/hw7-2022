@@ -22,12 +22,12 @@ document.querySelector("#pause").addEventListener("click", function() {
 
 document.querySelector("#slower").addEventListener("click", function() {
 	video.playbackRate *= 0.95
-	console.log("Speed is " + video.playbackRate)
+	console.log("New speed is " + video.playbackRate)
 });
 
 document.querySelector("#faster").addEventListener("click", function() {
 	video.playbackRate /= 0.95
-	console.log("Speed is " + video.playbackRate)
+	console.log("New speed is " + video.playbackRate)
 });
 
 document.querySelector("#skip").addEventListener("click", function() {
