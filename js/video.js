@@ -60,11 +60,13 @@ document.querySelector("#slider").addEventListener("change", function() {
 });
 
 document.querySelector("#vintage").addEventListener("click", function() {
-    bd = document.querySelector("body")
-    bd.classList.add("oldSchool")
+    vid = document.querySelector("video")
+    vid.classList.add("oldSchool")
+	console.log("Theme is vintage")
 });
 
 document.querySelector("#orig").addEventListener("click", function() {
-    bd = document.querySelector("body")
-    bd.classList.remove("oldSchool")
+    vid = document.querySelector("video")
+    vid.classList.remove("oldSchool")
+	console.log("Theme is original")
 });
